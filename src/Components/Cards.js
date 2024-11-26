@@ -5,7 +5,6 @@ const Cards = ({ img, title, text }) => {
   return (
     <div className={styles.newsCards}>
       <div>
-        <img src={img} alt={title} />
         <h3>{title}</h3>
         <p>{text}</p>
       </div>

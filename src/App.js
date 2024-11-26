@@ -5,6 +5,8 @@ import Home from "./Screens/Home";
 import Navbar from "./Components/Navbar";
 import News from "./Screens/News";
 import Banner from "./Screens/Banner";
+import BenefitsList from "./Screens/BenefitsList";
+import ContactPage from "./Components/ContactPage"; // Importa el nuevo componente
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -26,11 +28,16 @@ function App() {
       </section>
 
       <section id="Beneficios">
-        <News />
+        <BenefitsList />
       </section>
 
       <section id="Ingresar">
         <Banner />
+      </section>
+
+      {/* Nueva sección de contacto */}
+      <section id="Contacto">
+        <ContactPage />
       </section>
     </div>
   );
