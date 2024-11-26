@@ -3,7 +3,7 @@ import styles from "./Banner.module.css";
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
+/>
 
 const Banner = () => {
   return (
@@ -16,7 +16,7 @@ const Banner = () => {
             perferendis doloribus autem.
           </p>
           <button className={styles.btn}>
-            Learn More <i class="fas fa-angle-double-right"></i>
+            Learn More <i className="fas fa-angle-double-right"></i>
           </button>
         </div>
       </section>

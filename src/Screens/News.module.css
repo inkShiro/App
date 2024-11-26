@@ -1,11 +1,44 @@
 .HowWeWork {
-    display: flex; /* Flexbox para organizar las tarjetas horizontalmente */
-    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente fila si no caben */
-    gap: 20px; /* Espacio entre las tarjetas */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    padding: 20px;
-    background: linear-gradient(180deg, #1a1826, #413b5e);
-  }
-  
- 
-  
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.servicesTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.servicesTable th,
+.servicesTable td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.CardsSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.CardsSection > div {
+  margin: 10px;
+  flex: 1 1 calc(33.33% - 20px); /* 3 columnas */
+}
+
+.newsCards img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.newsCards h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.newsCards p {
+  font-size: 1rem;
+  color: #666;
+}

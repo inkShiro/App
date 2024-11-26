@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Cards.module.css";
+import styles from "./Cards.module.css"; // Asegúrate de tener este archivo CSS para los estilos
 
-const Cards = ({img, title, text}) => {
+const Cards = ({ img, title, text }) => {
   return (
     <div className={styles.newsCards}>
       <div>
