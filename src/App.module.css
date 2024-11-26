@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que los bordes y padding no aumenten el tamaño de los elementos */
+  }
+
+  .App {
+    font-family: "Oswald", sans-serif;
+    background: linear-gradient(180deg, #1a1826, #413b5e);
+
+  }

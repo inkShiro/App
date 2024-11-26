@@ -1,0 +1,11 @@
+.HowWeWork {
+    display: flex; /* Flexbox para organizar las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente fila si no caben */
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    padding: 20px;
+    background: linear-gradient(180deg, #1a1826, #413b5e);
+  }
+  
+ 
+  

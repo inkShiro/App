@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import styles from "./App.module.css";
+import Home from "./Screens/Home";
+import Navbar from "./Components/Navbar";
+import News from "./Screens/News";
+import Banner from "./Screens/Banner";
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <Navbar/>
+      <Home/>
+      <News/>
+      <Banner/>
+      <News/>
+      <Banner/>
     </div>
+    
   );
 }
 
